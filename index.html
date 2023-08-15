@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="icon" href="img/icon.png">
+    <title>Treasury of Pages</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <div class="logo-wrap">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-option"><a href="sobre.html">Sobre a Loja</a></li>
+                <li class="nav-option"><a href="#">Gênero</a></li>
+                <li class="nav-option"><a href="#">Escritores</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <button onclick="goPrev()">
+            <i class="fa-solid fa-angle-left" id="prev-button"></i>
+        </button>
+        <button onclick="goNext()">
+            <i class="fa-solid fa-angle-right" id="next-button"></i>
+        </button>
+        <img src="./img/carousel1.png" class="slide" alt="">
+        <img src="./img/carousel2.png" class="slide" alt="">
+        <img src="./img/carousel3.png" class="slide" alt="">
+    </main>
+
+    <footer>
+        <div class="row primary">
+            <div class="column subscribe">
+                <h3>Cadastre-se</h3>
+                <div>
+                    <input type="text" placeholder="Digite seu nome" />
+                    <input type="email" placeholder="Digite seu e-mail" />
+                    <button>Cadastrar</button>
+                </div>
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram-square"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-x-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-youtube"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="column links">
+                <h3>Anuncie Aqui</h3>
+                <ul>
+                    <li>
+                        <a href="#">Termos de uso</a>
+                    </li>
+                    <li>
+                        <a href="#">Planos e preços</a>
+                    </li>
+                    <li>
+                        <a href="#">Como anunciar</a>
+                    </li>
+                    <li>
+                        <a href="#">Área do anunciante</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row secondary">
+            <div>
+                <p>
+                    <i class="fas fa-phone-alt"></i>
+                </p>
+                <p>(11) #####-####</p>
+            </div>
+            <div>
+                <p><i class="fas fa-envelope"></i></p>
+                <p>treasuryofpages@books.com.br</p>
+            </div>
+        </div>
+        <div class="row copyright">
+            <p>&copy; 2023 BooksCompany LTDA | Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
